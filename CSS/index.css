@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    background: #E5E5E5;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    white-space: nowrap;
+}
+
+button:focus,
+textarea:focus,
+select:focus {
+    outline: none !important;
+    -webkit-appearance: none;
+    box-shadow: none;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+a:active,
+a:focus {
+    outline: 0;
+    outline: none !important;
+    -moz-outline-style: none;
+}
+
+a,
+img,
+button,
+span,
+svg,
+input,
+textarea {
+    /* transition: .3s all ease; */
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/* Header seris start */
+#header {
+    background: #FFFFFF;
+}
+
+.header-wrap__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header-item {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.header-item a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4D5674;
+}
+
+.header-item .active::before {
+    content: "";
+    position: absolute;
+    width: 51px;
+    height: 3px;
+    background: #4B9E50;
+    bottom: -36px;
+    right: 1px;
+}
+
+.header-item .active a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #010E38;
+
+}
+
+/* Header seris end */
